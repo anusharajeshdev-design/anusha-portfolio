@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './styles/globals.css'
+import Navbar from "./components/layouts/Navbar";
+import Hero from "./components/sections/Hero";
+import CareerTimeline from "./components/sections/CareerTimeline";
+
 export default function App() {
   return (
-    <main className="min-h-screen bg-slate-50">
-      <h1 className="text-5xl font-bold text-center pt-40">
-        Anusha Portfolio
-      </h1>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <CareerTimeline />
+      </main>
+    </>
   );
 }
