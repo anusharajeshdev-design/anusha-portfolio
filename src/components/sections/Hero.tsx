@@ -15,11 +15,11 @@ export default function Hero() {
     >
       <div className="mx-auto w-full max-w-7xl">
 
-        {/* Badge */}
+        {/* Badge
 
         <span className="glass inline-flex rounded-full px-5 py-2 text-sm font-medium text-[var(--accent)]">
           Enterprise Software • AI Solutions • .NET 10
-        </span>
+        </span> */}
 
         {/* Heading */}
 
